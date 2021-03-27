@@ -15,7 +15,7 @@ COPY --from=0 /usr/lib/x86_64-linux-gnu/lua /usr/lib/x86_64-linux-gnu
 
 RUN echo "deb http://openresty.org/package/debian buster openresty" > /etc/apt/sources.list.d/openresty.list \
     && apt-get update --allow-insecure-repositories \
-    && apt-get install --allow-unauthenticated -y wget lua5.1 lua-inspect gnupg2 openresty \
+    && apt-get install --allow-unauthenticated -y wget lua5.1 lua-sql-mysql lua-inspect gnupg2 openresty \
     && wget -O - https://openresty.org/package/pubkey.gpg | apt-key add -
 
 COPY nginx.conf /etc/openresty/nginx.conf
