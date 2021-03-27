@@ -27,7 +27,7 @@ These images was based on **debian** and **alpine**. Each one has two types:
 - **full** images contains everything need to use luarocks, including development libraries and gcc;
 - **slim** images remove every package related to compilation process.
 
-Images without tag, like `lapis:debian`, `lapis:alpine` or `lapis:latest` are based on **full**.
+Images without tag, like `lapis:buster`, `lapis:alpine` or `lapis:latest` are based on **full**.
 
 ## Português
 
@@ -54,4 +54,4 @@ Estas imagens são baseadas em **debian** e **alpine**. Cada uma tem dois tipos:
 - **full** são imagens que contêm tudo o que é necessário para usar o luarocks, incluindo bibliotecas de desenvolvimento e o gcc;
 - **slim** são imagens com todos os pacotes relacionados ao processo de compilação removidos;
 
-Imagens sem tag, como `lapis:debian`, `lapis:alpine` ou `lapis:latest` são baseadas na versão **full**.
+Imagens sem tag, como `lapis:buster`, `lapis:alpine` ou `lapis:latest` são baseadas na versão **full**.
